@@ -1,4 +1,3 @@
-import FlightCard from "./FlightCard";
 import PrimaryButton from "./PrimaryButton";
 import "./FlightContainer.css";
 
