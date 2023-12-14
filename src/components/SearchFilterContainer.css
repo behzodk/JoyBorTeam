@@ -1,0 +1,93 @@
+.frame-child,
+.results2 {
+  align-self: stretch;
+  position: relative;
+}
+.results2 {
+  letter-spacing: 0.26px;
+}
+.frame-child {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.results-parent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+}
+.frame,
+.results-parent,
+.stops {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  gap: var(--gap-base);
+}
+.stops {
+  gap: var(--gap-5xl);
+}
+.component-1formcheckbox,
+.stops {
+  align-self: stretch;
+}
+.results5 {
+  position: relative;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 198px;
+}
+.frame2 {
+  width: 310.8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.results6 {
+  position: relative;
+  letter-spacing: 0.26px;
+  display: inline-block;
+  width: 87.8px;
+}
+.frame3 {
+  width: 181px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-base);
+}
+.airlines,
+.frame3,
+.search-filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.airlines {
+  align-self: stretch;
+  height: 106px;
+  gap: var(--gap-5xl);
+}
+.search-filters {
+  width: 253px;
+  gap: var(--gap-20xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1200px) {
+  .search-filters {
+    display: none;
+  }
+}

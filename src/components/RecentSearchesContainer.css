@@ -1,0 +1,220 @@
+.recent-searches {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.recent-searches1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.hotel-icon {
+  position: relative;
+  width: 65.4px;
+  height: 65.4px;
+  object-fit: cover;
+}
+.hotel1 {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.hotel {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-sandybrown);
+  width: 65.4px;
+  height: 65.4px;
+}
+.ticket-icon {
+  position: absolute;
+  height: 47.86%;
+  width: 48.32%;
+  top: 25.99%;
+  right: 25.84%;
+  bottom: 26.15%;
+  left: 25.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.attractions-icon {
+  position: relative;
+  width: 65.4px;
+  height: 65.4px;
+}
+.attractions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.background1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  width: 65.4px;
+  height: 65.4px;
+}
+.train-icon {
+  position: absolute;
+  height: 48.47%;
+  width: 41.13%;
+  top: 26.45%;
+  right: 29.51%;
+  bottom: 25.08%;
+  left: 29.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-cornflowerblue-100);
+  width: 70px;
+  height: 65.4px;
+}
+.taxi-icon1 {
+  position: absolute;
+  height: 40.21%;
+  width: 40.57%;
+  top: 29.66%;
+  right: 29.71%;
+  bottom: 30.12%;
+  left: 29.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.taxi-icon {
+  position: relative;
+  width: 70px;
+  height: 65.4px;
+}
+.taxi1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 32.1px;
+}
+.background3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-yellowgreen);
+  width: 65.4px;
+  height: 65.4px;
+}
+.movie-icon {
+  position: absolute;
+  height: 35.63%;
+  width: 39.91%;
+  top: 32.26%;
+  right: 30.12%;
+  bottom: 32.11%;
+  left: 29.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.trip-menus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--color-gray-100);
+}
+.prepare-menu {
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-lightgray);
+}
+.flight-details,
+.prepare-menu,
+.upcoming-flight-section,
+.upcoming-flight-section1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flight-details {
+  justify-content: center;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-300);
+}
+.upcoming-flight-section,
+.upcoming-flight-section1 {
+  justify-content: flex-start;
+}
+.upcoming-flight-section1 {
+  gap: var(--gap-xl);
+}
+.upcoming-flight-section {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-400);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1100px) {
+  .recent-searches1 {
+    flex-direction: column;
+  }
+  .prepare-menu {
+    width: 100%;
+  }
+  .flight-details {
+    flex-direction: column;
+  }
+  .upcoming-flight-section {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .attractions,
+  .hotel {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+  .trip-menus {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}

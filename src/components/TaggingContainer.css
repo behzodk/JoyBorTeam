@@ -1,0 +1,117 @@
+.group-child58 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gainsboro-100);
+  width: 500px;
+  height: 471px;
+}
+.editing {
+  position: absolute;
+  top: 51.5px;
+  left: 189px;
+  line-height: 51px;
+  color: var(--studio-darkmode-explainertext-485269);
+}
+.b24,
+.property {
+  position: absolute;
+  top: 105.5px;
+  left: 86.8px;
+  font-size: var(--font-size-131xl);
+  line-height: 150px;
+  display: inline-block;
+  width: 326.4px;
+}
+.property {
+  top: 248.2px;
+  left: 81.8px;
+  font-size: var(--font-size-32xl);
+  letter-spacing: 0.06em;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 471px;
+}
+.in-the-styling {
+  margin: 0;
+}
+.in-the-styling-container {
+  position: absolute;
+  top: 329.5px;
+  left: 64px;
+  font-size: var(--font-size-13xl);
+  line-height: 51px;
+  color: var(--studio-darkmode-popuplabels-5e6a86);
+  display: inline-block;
+  width: 372px;
+  height: 87px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 0;
+  left: 565px;
+  width: 500px;
+  height: 471px;
+}
+.live-preview {
+  margin: 0;
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.getting-live-preview-container {
+  position: absolute;
+  top: 161.5px;
+  left: 73.5px;
+  letter-spacing: 0.06em;
+  line-height: 74px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 353px;
+}
+.group-wrapper {
+  position: absolute;
+  top: 0;
+  left: 1695px;
+  width: 500px;
+  height: 471px;
+  font-size: var(--font-size-29xl);
+  color: var(--studio-darkmode-explainertext-485269);
+}
+.code {
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.exporting-code {
+  position: absolute;
+  top: 161.5px;
+  left: 72.8px;
+  letter-spacing: 0.06em;
+  line-height: 74px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 354.4px;
+}
+.group-frame,
+.group-parent4 {
+  position: absolute;
+  top: 0;
+  left: 2260px;
+  width: 500px;
+  height: 471px;
+  font-size: var(--font-size-29xl);
+  color: var(--studio-darkmode-explainertext-485269);
+}
+.group-parent4 {
+  top: 1727.1px;
+  left: 108.2px;
+  width: 2760px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--typography-body-1);
+}

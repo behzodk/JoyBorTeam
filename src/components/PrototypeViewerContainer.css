@@ -1,0 +1,141 @@
+.select-view-prototype {
+  position: absolute;
+  top: 34.6px;
+  left: 42.2px;
+  line-height: 28px;
+  display: inline-block;
+  width: 435px;
+}
+.image-31-icon {
+  position: absolute;
+  top: 121.3px;
+  left: 38.2px;
+  width: 401.2px;
+  height: 167px;
+  object-fit: cover;
+}
+.wrapper-group-778-child {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.165);
+}
+.wrapper-group-778 {
+  position: absolute;
+  height: 1.5%;
+  width: 1.66%;
+  top: 98.5%;
+  right: 4.63%;
+  bottom: 0;
+  left: 93.71%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview-your-work {
+  position: absolute;
+  top: 0;
+  left: 42.1px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.group-child76 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--studio-lightmode-midseparator-dee3eb);
+  width: 24px;
+  height: 24px;
+}
+.b28 {
+  position: absolute;
+  top: 3.9px;
+  left: 8.4px;
+  display: inline-block;
+  width: 8.8px;
+  height: 17.6px;
+}
+.ellipse-parent18 {
+  position: absolute;
+  top: 1.7px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-sm);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-helvetica);
+}
+.preview-your-work-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225.1px;
+  height: 28px;
+  color: var(--color-darkslategray-100);
+}
+.select-view-prototype-to-vie-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 477.2px;
+  height: 720.2px;
+}
+.once-you-are1 {
+  position: absolute;
+  top: 379.8px;
+  left: 42.1px;
+  line-height: 28px;
+  display: inline-block;
+  width: 435px;
+}
+.you-can-export {
+  margin: 0;
+}
+.you-can-export-container {
+  position: absolute;
+  top: 1151.9px;
+  left: 50.3px;
+  line-height: 28px;
+  display: inline-block;
+  width: 435px;
+}
+.configure-code-parent,
+.sync-export-or-deploy-your-p-parent {
+  position: absolute;
+  top: 345.2px;
+  left: 0;
+  width: 191.1px;
+  height: 28px;
+  color: var(--color-darkslategray-100);
+}
+.sync-export-or-deploy-your-p-parent {
+  top: 1117.3px;
+  left: 8.2px;
+  width: 401.1px;
+}
+.screenshot-2023-09-22-at-949 {
+  position: absolute;
+  top: 456.3px;
+  left: 38.2px;
+  width: 269px;
+  height: 584.3px;
+  object-fit: cover;
+}
+.group-parent8 {
+  position: absolute;
+  top: 1276.7px;
+  left: 58.8px;
+  width: 485.3px;
+  height: 1291.9px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--studio-darkmode-explainertext-485269);
+  font-family: var(--typography-body-1);
+}

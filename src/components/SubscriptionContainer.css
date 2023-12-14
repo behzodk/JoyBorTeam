@@ -1,0 +1,202 @@
+.seperator1 {
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 1px;
+  height: 157.9px;
+}
+.about-us1,
+.company3 {
+  position: relative;
+  display: inline-block;
+}
+.company3 {
+  line-height: 27px;
+  font-weight: 500;
+  width: 174.7px;
+}
+.about-us1 {
+  font-size: var(--typography-body-1-size);
+  width: 135.7px;
+}
+.frame4 {
+  width: 174.7px;
+  height: 66.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.careers1,
+.how-we-work1,
+.news1 {
+  position: relative;
+  display: inline-block;
+  width: 84.3px;
+}
+.careers1,
+.how-we-work1 {
+  width: 115.1px;
+}
+.how-we-work1 {
+  width: 197.3px;
+}
+.company2,
+.frame5 {
+  width: 197.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame5 {
+  height: 81px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--typography-body-1-size);
+}
+.company2 {
+  height: 159.8px;
+}
+.account1,
+.support3 {
+  position: relative;
+  display: inline-block;
+}
+.support3 {
+  line-height: 27px;
+  font-weight: 500;
+  width: 131.6px;
+}
+.account1 {
+  font-size: var(--typography-body-1-size);
+  width: 109.6px;
+}
+.frame6 {
+  width: 131.6px;
+  height: 66.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.faq1 {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+}
+.accessibility1 {
+  width: 164.4px;
+}
+.accessibility1,
+.covid-advisory1,
+.more3 {
+  position: relative;
+  display: inline-block;
+}
+.more3 {
+  line-height: 27px;
+  font-weight: 500;
+  width: 76.7px;
+}
+.covid-advisory1 {
+  font-size: var(--typography-body-1-size);
+  width: 172.9px;
+}
+.frame8 {
+  width: 172.9px;
+  height: 66.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.airline-fees1,
+.tips1 {
+  position: relative;
+  display: inline-block;
+  width: 135.4px;
+}
+.tips1 {
+  width: 50.6px;
+}
+.footer-links1,
+.more2 {
+  display: flex;
+  align-items: flex-start;
+}
+.more2 {
+  width: 197.3px;
+  height: 159.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.footer-links1 {
+  flex: 1;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-section2,
+.footer1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer1 {
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-direction: row;
+  padding: var(--padding-14xl) var(--padding-65xl);
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--background-paper);
+  font-family: var(--typography-body-1);
+}
+.footer-section2 {
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .footer1 {
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .seperator1 {
+    display: none;
+  }
+  .footer-links1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer1 {
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .company2 {
+    margin-bottom: 40px !important;
+  }
+  .footer-links1 {
+    flex-direction: column;
+  }
+  .footer1 {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

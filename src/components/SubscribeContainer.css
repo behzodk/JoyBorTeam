@@ -1,0 +1,299 @@
+.subscribe-section-background {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 530px;
+  object-fit: cover;
+}
+.form-title-subtext1,
+.form-title1 {
+  align-self: stretch;
+  position: relative;
+}
+.form-title-subtext1 {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.form-title1 {
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-200);
+}
+.form-header1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fill-in-your1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 34px;
+  font-family: var(--typography-body-1);
+  color: var(--color-slategray-100);
+  text-align: left;
+}
+.form-text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar2,
+.op2 {
+  align-items: center;
+  justify-content: center;
+}
+.op2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  font-family: var(--typography-body-1);
+  color: var(--color-dimgray-200);
+  text-align: center;
+  display: flex;
+}
+.avatar2 {
+  border-radius: var(--br-45xl);
+  background-color: var(--color-silver);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+}
+.chip5 {
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.16px;
+  line-height: 18px;
+  font-family: var(--typography-body-1);
+  color: var(--text-primary);
+  text-align: left;
+}
+.typography2 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+}
+.cancel-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.container2 {
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-200);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.chip4,
+.muiautocompletetag1 {
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip4 {
+  display: flex;
+  flex-direction: column;
+}
+.muiautocompletetag1 {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.your-name {
+  flex: 1;
+  position: relative;
+  font-size: var(--typography-body-1-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: var(--typography-body-1);
+  color: var(--color-gray-400);
+  text-align: left;
+}
+.close-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconbutton,
+.unstylediconbutton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.unstylediconbutton {
+  border-radius: var(--br-29xl);
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+}
+.iconbutton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+}
+.mui-autocomplete-indicator {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: none;
+}
+.inactive {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-5xs);
+}
+.inactive,
+.inactive1,
+.input3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.input3 {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-300);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs);
+}
+.inactive1 {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) 0;
+  gap: var(--gap-5xs);
+}
+.button9,
+.form-fields1 {
+  display: flex;
+  flex-direction: column;
+}
+.form-fields1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  border-radius: var(--br-9xs);
+  width: 164px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button9:hover {
+  background-color: var(--color-darkorange);
+}
+.form1,
+.share-your-travels-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--background-paper);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-whitesmoke-200);
+  align-items: flex-start;
+  padding: var(--padding-9xl) var(--padding-11xl);
+  gap: var(--gap-mid);
+}
+.share-your-travels-form {
+  position: relative !important;
+  top: 52px;
+  left: auto !important;
+  width: 549px;
+  align-items: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribe-section {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  height: 529px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1200px) {
+  .your-name {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inactive,
+  .inactive1 {
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .share-your-travels-form {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .button9 {
+    width: 100%;
+  }
+  .button9:hover {
+    background-color: var(--color-peru);
+  }
+  .share-your-travels-form {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+}

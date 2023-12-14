@@ -1,0 +1,326 @@
+.defining {
+  margin: 0;
+}
+.defining-styling-container {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  line-height: 80px;
+  font-weight: 900;
+}
+.getting-started4 {
+  position: absolute;
+  top: 0;
+  left: 3.4px;
+  font-size: var(--font-size-11xl);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--studio-darkmode-explainertext-485269);
+}
+.defining-styling-layouts-parent {
+  position: absolute;
+  top: 42px;
+  left: 60.4px;
+  width: 515px;
+  height: 195px;
+  font-size: var(--font-size-46xl);
+  color: var(--color-darkslategray-100);
+}
+.in-the-step-container {
+  position: absolute;
+  top: 248px;
+  left: 60px;
+  font-size: var(--font-size-5xl);
+  line-height: 38px;
+  display: inline-block;
+  width: 474px;
+}
+.nice-job-youve,
+.select-the-purple-container {
+  position: absolute;
+  top: 1338px;
+  left: 60px;
+  line-height: 32px;
+  display: inline-block;
+  width: 474px;
+}
+.select-the-purple-container {
+  top: 34px;
+  left: 41.5px;
+  width: 403px;
+}
+.group-child16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--studio-lightmode-midseparator-dee3eb);
+  width: 24px;
+  height: 24px;
+}
+.b13 {
+  position: absolute;
+  top: 3.9px;
+  left: 8.4px;
+  display: inline-block;
+  width: 8.8px;
+  height: 17.6px;
+}
+.ellipse-parent5 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-sm);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-helvetica);
+}
+.select-the-layer-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 219.8px;
+  height: 28px;
+  color: var(--color-darkslategray-100);
+}
+.select-the-purple-view-full-g-parent {
+  position: absolute;
+  top: 412px;
+  left: 60.5px;
+  width: 444.5px;
+  height: 98px;
+}
+.now-lets-add-container,
+.then-choose-the,
+.you-can-then {
+  position: absolute;
+  top: 1242px;
+  left: 101.5px;
+  line-height: 32px;
+  display: inline-block;
+  width: 403px;
+}
+.now-lets-add-container,
+.then-choose-the {
+  top: 962px;
+}
+.now-lets-add-container {
+  top: 39px;
+  left: 41.5px;
+}
+.add-hover-state {
+  position: absolute;
+  top: 0;
+  left: 41.8px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.add-hover-state-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 215.8px;
+  height: 28px;
+  color: var(--color-darkslategray-100);
+}
+.now-lets-add-a-hover-effect-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 444.5px;
+  height: 135px;
+}
+.getting-started-behaviour-inner,
+.image-16-icon {
+  position: absolute;
+  top: 653px;
+  left: 60px;
+  width: 444.5px;
+  height: 135px;
+}
+.image-16-icon {
+  top: 1022px;
+  left: 130px;
+  width: 324px;
+  height: 188px;
+  object-fit: cover;
+}
+.getting-started-behaviour-child {
+  position: absolute;
+  top: 1199.2px;
+  left: 274.2px;
+  border-radius: 50%;
+  background-color: var(--studio-universal-confirm-4fc786);
+  border: 3.8px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 17.7px;
+  height: 17.7px;
+}
+.screenshot-2022-02-04-at-821 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 187.5px;
+  height: 96.7px;
+  object-fit: cover;
+}
+.group-child18 {
+  position: absolute;
+  top: 2.2px;
+  left: 1.9px;
+  border: 0.7px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 155.9px;
+  height: 46.8px;
+}
+.group-child19 {
+  top: 0;
+  left: 0;
+}
+.group-child19,
+.group-child20,
+.group-child21,
+.group-child22 {
+  position: absolute;
+  background-color: var(--background-paper);
+  border: 1.1px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  width: 4.5px;
+  height: 4.5px;
+}
+.group-child20 {
+  bottom: 0;
+  left: 0;
+}
+.group-child21,
+.group-child22 {
+  right: 0.1px;
+}
+.group-child21 {
+  top: 0;
+}
+.group-child22 {
+  bottom: 0;
+}
+.rectangle-group {
+  position: absolute;
+  top: 24.7px;
+  left: 15.4px;
+  width: 160.1px;
+  height: 51.3px;
+}
+.button-icon,
+.iconblockbutton,
+.rectangle-icon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 79.6px;
+  object-fit: cover;
+}
+.button-icon,
+.iconblockbutton {
+  top: 37.7px;
+  height: 11.7px;
+}
+.iconblockbutton {
+  width: 54.29%;
+  top: 0;
+  right: 23.08%;
+  left: 22.64%;
+  height: 24.4px;
+}
+.group1 {
+  position: absolute;
+  width: 45.91%;
+  top: 13.3px;
+  right: 26.94%;
+  left: 27.14%;
+  height: 49.4px;
+}
+.button1,
+.button2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 79.6px;
+}
+.button1 {
+  width: 28.33%;
+  top: 10.5px;
+  left: 71.67%;
+  filter: drop-shadow(0 0 26.81px rgba(0, 0, 0, 0.04));
+}
+.group-child23 {
+  position: absolute;
+  top: 50.5px;
+  left: 173.2px;
+  width: 77.5px;
+  height: 0;
+  object-fit: cover;
+}
+.group-child24 {
+  position: absolute;
+  width: 5.06%;
+  top: 41.7px;
+  right: 25.79%;
+  left: 69.15%;
+  border-radius: 50%;
+  background-color: var(--studio-universal-confirm-4fc786);
+  border: 3.8px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  height: 17.7px;
+}
+.image-16-icon1,
+.screenshot-2022-02-04-at-821-parent {
+  position: absolute;
+  top: 534.6px;
+  left: 104.5px;
+  width: 349.8px;
+  height: 96.7px;
+}
+.image-16-icon1 {
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 122px;
+  object-fit: cover;
+}
+.group-child25 {
+  position: absolute;
+  top: 67.2px;
+  left: 151.2px;
+  border-radius: 50%;
+  background-color: var(--studio-universal-confirm-4fc786);
+  border: 3.8px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 17.7px;
+  height: 17.7px;
+}
+.image-16-parent {
+  position: absolute;
+  top: 808px;
+  left: 127px;
+  width: 340px;
+  height: 122px;
+}
+.getting-started-behaviour {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-color: var(--color-ghostwhite);
+  width: 595px;
+  height: 1434px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--studio-darkmode-explainertext-485269);
+  font-family: var(--typography-body-1);
+}

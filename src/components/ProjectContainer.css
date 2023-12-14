@@ -1,0 +1,84 @@
+.once-your-project {
+  position: absolute;
+  top: 34px;
+  left: 42.2px;
+  line-height: 28px;
+  display: inline-block;
+  width: 435px;
+}
+.view-code-and {
+  position: absolute;
+  top: 0;
+  left: 42.1px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.group-child66 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--studio-lightmode-midseparator-dee3eb);
+  width: 24px;
+  height: 24px;
+}
+.b26 {
+  position: absolute;
+  top: 3.9px;
+  left: 8.4px;
+  display: inline-block;
+  width: 8.8px;
+  height: 17.6px;
+}
+.ellipse-parent16 {
+  position: absolute;
+  top: 1.7px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-sm);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-helvetica);
+}
+.view-code-and-make-changes-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.1px;
+  height: 28px;
+  color: var(--color-darkslategray-100);
+}
+.group-child67,
+.image-28-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  width: 435.3px;
+  height: 240px;
+  object-fit: cover;
+}
+.group-child67 {
+  top: 4.1px;
+  left: 125.4px;
+  width: 5.1px;
+  height: 6.5px;
+}
+.image-28-parent {
+  position: absolute;
+  top: 103.8px;
+  left: 42.2px;
+  width: 435.3px;
+  height: 240px;
+}
+.once-your-project-has-been-syn-parent {
+  position: absolute;
+  top: 461.2px;
+  left: 58.8px;
+  width: 477.4px;
+  height: 343.8px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--studio-darkmode-explainertext-485269);
+  font-family: var(--typography-body-1);
+}

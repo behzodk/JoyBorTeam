@@ -1,0 +1,130 @@
+.popular-stays1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 1105.3px;
+}
+.popular-stays-title {
+  flex: 1;
+  position: relative;
+  height: 35px;
+}
+.view-all-stays {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--typography-body-1);
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+  display: inline-block;
+  width: 140.7px;
+  flex-shrink: 0;
+}
+.arrow-right-icon4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.view-all-stays-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--background-paper);
+  border-radius: var(--br-12xl);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.hotel-cards,
+.popular-stays-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-cards {
+  justify-content: flex-start;
+  margin-left: -12px;
+  margin-right: -12px;
+  font-size: var(--typography-body-1-size);
+}
+.view-all-stays1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 140.7px;
+  flex-shrink: 0;
+}
+.mobile-view-all-stays,
+.popular-stays {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobile-view-all-stays {
+  border-radius: var(--br-12xl);
+  background-color: var(--background-paper);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+}
+.popular-stays {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--typography-body-1);
+}
+@media screen and (max-width: 1200px) {
+  .hotel-cards {
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+    margin-left: -12px;
+    margin-right: -50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .view-all-stays-button {
+    display: none;
+  }
+  .hotel-cards {
+    margin-right: -50px;
+    margin-left: -12px;
+  }
+  .view-all-stays1 {
+    width: auto;
+  }
+  .mobile-view-all-stays {
+    display: flex;
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .popular-stays1 {
+    font-size: var(--font-size-3xl);
+  }
+  .hotel-cards {
+    flex-direction: column;
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-right: -12px;
+    margin-left: -12px;
+  }
+}
